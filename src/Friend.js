@@ -3,6 +3,10 @@ import React, {useState} from React;
 const Friend = () => {
   
   const [friendData, setFriendData] = useState([]);
+
+  useEffect(() => {
+
+  }, [])
   
   return (
     <div className="friend-card">
