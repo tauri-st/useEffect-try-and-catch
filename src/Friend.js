@@ -1,4 +1,4 @@
-const Friend = () => {
+const Friend = ( {friend} ) => {
   
   return (
     <div className="friend-card">
