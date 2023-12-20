@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div className="App">
       {friendData.map((friend) => {
-        return <Friend />
+        return <Friend key={id} friend={friend}/>
       })};
     </div>;
   );
