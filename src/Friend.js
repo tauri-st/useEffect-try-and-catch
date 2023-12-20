@@ -1,4 +1,4 @@
-import React, {useState} from React;
+import React, {useState, useEffect} from "react";
 
 const Friend = () => {
   
@@ -15,6 +15,8 @@ const Friend = () => {
       }
       fetchData();
   }, []);
+
+  console.log(friendData);
   
   return (
     <div className="friend-card">
