@@ -24,9 +24,9 @@ const App = () => {
 
   return (
     <div className="App">
-      friendData.map((friendData){
-        <Friend friend={friendData}/>
-      });
+      {friendData.map((friend) => {
+        return <Friend />
+      })};
     </div>;
   );
 };
