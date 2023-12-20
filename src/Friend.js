@@ -1,5 +1,9 @@
 const Friend = ( {friend} ) => {
   
+  const letterAvatar = friend.name.split("")
+
+  console.log(letterAvatar);
+
   return (
     <div className="friend-card">
       <div className="friend-details">
