@@ -5,8 +5,13 @@ const Friend = () => {
   const [friendData, setFriendData] = useState([]);
 
   useEffect(() => {
+    const fetchData = async () =>
+      try {
 
-  }, [])
+      } catch () {
+
+      }
+  }, []);
   
   return (
     <div className="friend-card">
