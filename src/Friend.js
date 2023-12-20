@@ -6,7 +6,7 @@ const Friend = ( {friend} ) => {
         <div className="avatar"></div>
         <h2 className="friend-name">{friend.name}</h2>
       </div>
-      <div className="{friend.online === true ? online : offline}"></div>
+      <div className={`friend-status ${friend.online === true ? "online" : "offline"}`}></div>
     </div>
   );
 };
