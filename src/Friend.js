@@ -1,6 +1,6 @@
 const Friend = ( {friend} ) => {
   
-  const letterAvatar = friend.name.split("")
+  const letterAvatar = friend.name.split("")[0]
 
   console.log(letterAvatar);
 
