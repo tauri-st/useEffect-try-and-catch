@@ -22,7 +22,13 @@ const App = () => {
 // Check if we have fetched the array of friend data
 //  console.log(friendData);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      friendData.map((friendData){
+        <Friend friend={friendData}/>
+      });
+    </div>;
+  );
 };
 
 export default App;
