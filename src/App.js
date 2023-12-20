@@ -19,8 +19,9 @@ const App = () => {
       fetchData();
   }, []);
 
-  console.log(friendData);
-  
+// Check if we have fetched the array of friend data
+//  console.log(friendData);
+
   return <div className="App"></div>;
 };
 
