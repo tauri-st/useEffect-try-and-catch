@@ -13,6 +13,7 @@ const Friend = () => {
       } catch (error) {
         console.log(error);
       }
+      fetchData();
   }, []);
   
   return (
