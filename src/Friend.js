@@ -1,6 +1,6 @@
 const Friend = ( {friend} ) => {
   
-  const letterAvatar = friend.name.split("")[0]
+  const letterAvatar = friend.name.split("")[0].toUpperCase();
 
   return (
     <div className="friend-card">
